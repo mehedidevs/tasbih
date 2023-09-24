@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
         Dcrease.setOnClickListener{
             viewmodel.Dcrease()
         }
-        Log.d("TAG","onCreate: ")
+        
     }
    
 }
