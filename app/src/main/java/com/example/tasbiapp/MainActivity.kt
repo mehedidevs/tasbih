@@ -40,16 +40,7 @@ class MainActivity : ComponentActivity() {
         Resetbtn = findViewById(R.id.resetbtn)
         Dcrease = findViewById(R.id.dcrease)
 
-        increasebtn.setOnClickListener{
-            viewmodel.increase()
-        }
-        Resetbtn.setOnClickListener{
-            viewmodel.reset()
-        }
-        Dcrease.setOnClickListener{
-            viewmodel.Dcrease()
-        }
-        
+
     }
    
 }
